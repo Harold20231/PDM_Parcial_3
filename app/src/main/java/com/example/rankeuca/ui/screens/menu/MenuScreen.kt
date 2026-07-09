@@ -42,5 +42,17 @@ fun MenuScreen(
         ) {
             Text("Voto Masivo")
         }
+        Button(
+            onClick = onMassVoteClick,
+            modifier = Modifier
+        ) {
+            Text("Registro")
+        }
+        Button(
+            onClick = onMassVoteClick,
+            modifier = Modifier
+        ) {
+            Text("Results")
+        }
     }
 }

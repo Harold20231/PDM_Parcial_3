@@ -42,7 +42,6 @@ fun RegisterScreen(
             text = "Registro",
             style = MaterialTheme.typography.headlineMedium
         )
-
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(

@@ -32,8 +32,7 @@ class RegisterViewModel @Inject constructor(
             _uiState.update { it.copy(error = "El carnet no puede estar vacío") }
             return
         }
-
-        viewModelScope.launch {
+       viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null, success = false) }
 
             try {
